@@ -2,3 +2,4 @@ project/*/upload/
 *.sql
 *.mp4
 *.mpv
+project/*
