@@ -1,0 +1,55 @@
+admin redirect [fixed]
+web config cms structure
+relate_multi filter [fixed]
+mysql error , dont show success; [fixed]
+手機相片 photo orientation[fixed]
+aes 256 data encryption
+integrade ckeditor & elfinder
+upload image path 加入index 以防止同一folder 太多file [fixed]
+added error handler reference : (set_error_handler) // /vendor/yiisoft/yii2/base/ErrorHandler.php
+fix admin warning
+preset generator  快速create cms
+
+20180409
+-----------------------
+field CFG extra_opt 加error checking
+field CFG extra_opt 加入必填項目
+加skipsql[fixed]
+加option enable image rotate[fixed]
+加sql framework
+加reserved_index in cfg_field
+file duplicate
+allow double click
+加張form simple create data structure , (1 data , 1data with image list , 1 data with 3 language)
+delete sublist[fixed]
+如果relate field 已經唔比delete
+加forgot password
+convert table to cms[fixed]
+table config details 裡面加一啲front end sample code , 例如 $form = $mysql->getList('admin_zconfigtable'); ，可以直接copy & paste
+checkbox checkall button fix only field alll
+## table config 可以reference from 其他 table config
+fiels 加field_opt full_width < content form 冇左邊label
+
+
+***************** debug *********************
+Check 左有，先用 explode
+explode(',', $field['related_extra_value'])
+
+20191226 用hkira db 做master , 有related from CFG Table
+sublist field 要check allow_duplicate
+
+
+
+20200615
+field option add unique_wparent
+
+
+20200902
+加減field , modify field 自動 alter db [fixed]
+inlinelist 自動開sub table
+
+20210327
+removed serialize data_type, inlinelist extra_opt converted serialize to json format
+
+
+datetime picker, 加option date+time , date , time

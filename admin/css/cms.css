@@ -1,0 +1,53 @@
+.order_field {
+    width: 30px;
+}
+.align_left {
+    float: left;
+}
+.badge {
+    border-radius: 3px;
+    
+}
+.x_title span.badge {
+    color: #ffffff;
+}
+.filter-title {
+	margin-left:20px;
+}
+.fileinput-button input {
+	position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 20px !important;
+    direction: ltr;
+    cursor: pointer;
+    width: 80px;
+}
+@media (max-width: 768px){
+	div.dataTables_wrapper div.dataTables_filter input {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0.5em;
+	}
+	.show_desktop {
+		display: none;
+	}
+	.filter-title {
+		margin-left:0px;
+		margin-top:20px;
+		display:block;
+	}
+}
+
+.table > tbody > tr > td {
+	padding: 4px;
+}
+.form-control {
+	padding: 3px 6px;
+}
+.select2-container {
+	max-width: 100%;
+}
